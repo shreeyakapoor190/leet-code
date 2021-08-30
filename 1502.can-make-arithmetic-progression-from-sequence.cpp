@@ -11,6 +11,7 @@ public:
     bool canMakeArithmeticProgression(vector<int> &arr)
     {
         int i, j, n = arr.size(), swap;
+        // used bubble sort method
         for (i = 0; i < n - 1; i++)
         {
             for (j = 0; j < n - 1 - i; j++)
