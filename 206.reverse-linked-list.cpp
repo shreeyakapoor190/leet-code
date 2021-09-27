@@ -20,17 +20,21 @@ class Solution
 public:
     ListNode *reverseList(ListNode *head)
     {
-        vector<int> res;
         ListNode *curr = head;
-        ListNode *temp;
+        stack<int> s;
         while (curr != NULL)
         {
-            res.insert(res.begin(), curr->val);
-            temp = curr;
+            s.push(curr->val);
             curr = curr->next;
         }
-        head->val = temp->val;
-        head = &res;
+        curr = head;
+        while (curr != NULL)
+        {
+            int i = s.top();
+            s.pop();
+            curr->val = i;
+            curr = curr->next;
+        }
         return head;
     }
 };
