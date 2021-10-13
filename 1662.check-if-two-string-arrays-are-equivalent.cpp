@@ -9,6 +9,7 @@ public:
         for (i = 0; i < l1; i++)
         {
             s1.append(word1[i]);
+            // s1+=word1[i];
         }
         for (i = 0; i < l2; i++)
         {
@@ -18,6 +19,6 @@ public:
             return true;
         else
             return false;
-        }
+    }
 };
 // @lc code=end
