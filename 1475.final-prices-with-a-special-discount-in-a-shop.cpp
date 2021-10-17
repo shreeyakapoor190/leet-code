@@ -13,9 +13,9 @@ public:
         int l = prices.size(), i, j;
         for (i = 0; i < l; i++)
         {
-            for (j = i + 1; j < l - 1; j++)
+            for (j = i + 1; j <= l - 1; j++)
             {
-                if (prices[j] >= prices[i])
+                if (prices[j] <= prices[i])
                 {
                     prices[i] = prices[i] - prices[j];
                     break;
