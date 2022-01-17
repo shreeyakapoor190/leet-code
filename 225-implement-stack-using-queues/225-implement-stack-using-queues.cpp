@@ -3,7 +3,7 @@ public:
     int size=0,s2=0,i,u;
     queue<int> q1,q2;
     MyStack() {
-        
+      
     }
     
     void push(int x) {
@@ -12,8 +12,7 @@ public:
     }
     
     int pop() {
-       
-        while(size!=1)
+               while(size!=1)
         {
             u=q1.front();
             q1.pop();
