@@ -1,44 +1,44 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
-      vector<string> g;
+      vector<string> w;
         unordered_map<char,string> k;
         unordered_map<string,char> kl;
-        string gar="";
+        string word="";
         for(int i=0;i<s.length();i++){
             if(s[i]==' '){
-                g.push_back(gar);
-                gar="";
+                w.push_back(word);
+                word="";
             }
             else{
-            gar=gar+s[i];
+            word=word+s[i];
             }
         }
-        g.push_back(gar);
+        w.push_back(word);
         
-        if(pattern.length()!=g.size()){
+        if(pattern.length()!=w.size()){
             return false;
         }
         for(int i=0;i<pattern.length();i++){
             if(k.find(pattern[i])!=k.end()){
-                if(k[pattern[i]]!=g[i]){
+                if(k[pattern[i]]!=w[i]){
                     return false;
                 }
             }
             else{
                 // cout<<pattern[i]<<g[i];
-                k[pattern[i]]=g[i];
+                k[pattern[i]]=w[i];
             }
         }
         for(int i=0;i<pattern.length();i++){
-            if(kl.find(g[i])!=kl.end()){
-                if(kl[g[i]]!=pattern[i]){
+            if(kl.find(w[i])!=kl.end()){
+                if(kl[w[i]]!=pattern[i]){
                     return false;
                 }
             }
             else{
                
-                kl[g[i]]=pattern[i];
+                kl[w[i]]=pattern[i];
             }
         }
         
