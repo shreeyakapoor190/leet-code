@@ -14,7 +14,6 @@ public:
        ListNode* res=new ListNode(0);
         ListNode *r=new ListNode();
         r=res;
-        // int count=0;
         if(head==NULL)
             return r->next;
         if(head->next==NULL)
@@ -24,13 +23,14 @@ public:
             ListNode* temp= new ListNode(head->val);
             if(head->next!=NULL)
             {
-            ListNode *temp2=new ListNode(head->next->val);
-            res->next=temp2;
-            res->next->next=temp;
-            head= head->next->next;
-            res= res->next->next;
+                ListNode *temp2=new ListNode(head->next->val);
+                res->next=temp2;
+                res->next->next=temp;
+                head= head->next->next;
+                res= res->next->next;
             }
-            else{
+            else
+            {
                 res->next=temp;
                 head=head->next;
                 res=res->next;
