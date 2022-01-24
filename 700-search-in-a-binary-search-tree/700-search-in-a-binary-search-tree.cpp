@@ -19,7 +19,6 @@ public:
           if(root->val==val )
           {
               res= root;
-              return res;
           }   
           searchBST(root->left, val);
           searchBST(root->right, val);
