@@ -14,9 +14,7 @@ public:
     int temp;
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
         if(root1==NULL)
-        {
             return root2;
-        }
         if(root2==NULL)
             return root1;
         if(root1!=NULL && root2!=NULL)
