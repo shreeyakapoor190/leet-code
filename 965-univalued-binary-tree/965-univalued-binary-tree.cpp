@@ -11,10 +11,8 @@
  */
 class Solution {
 public:
-    vector<int> arr;
     int c=0;
     bool isUnivalTree(TreeNode* root) {
-        // arr[0]=root;
         if(root!=NULL)
         {
         if(root->left!=NULL && root->val!= root->left->val)
