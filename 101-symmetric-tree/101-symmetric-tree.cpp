@@ -20,9 +20,9 @@ public:
     {
         if(!l || !r)
             return (l==r);
-        if(l->val != r->val)
-            return false;
-        return (Symmetry(l->left,r->right) && Symmetry(l->right, r->left));
+        if(l->val == r->val && Symmetry(l->left,r->right) && Symmetry(l->right, r->left))
+            return true;
+        return false;
         
     }
 };
