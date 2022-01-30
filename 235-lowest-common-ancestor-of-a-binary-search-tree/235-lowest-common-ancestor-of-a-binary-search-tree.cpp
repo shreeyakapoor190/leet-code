@@ -25,9 +25,4 @@ public:
             res= root;
         return res;
     }
-    
-//     TreeNode* find(TreeNode * root, int maxi, int mini)
-//     {
-        
-//     }
 };
