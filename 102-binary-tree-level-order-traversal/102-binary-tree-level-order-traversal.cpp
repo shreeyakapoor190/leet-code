@@ -36,12 +36,12 @@ public:
             r.push_back(curr->val);
             
              if (curr->left != NULL)
-            q.push(curr->left);
+               q.push(curr->left);
              if (curr->right != NULL)
-            q.push(curr->right);
+               q.push(curr->right);
         }
         }
-        res.push_back(r);
+        res.push_back(r); //to push the last level
         return res;
     }
 };
