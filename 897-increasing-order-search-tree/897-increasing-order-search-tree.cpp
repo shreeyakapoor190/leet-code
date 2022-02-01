@@ -26,9 +26,6 @@ public:
         inorder(root, arr);
         TreeNode* res=new TreeNode(arr[0]);
         TreeNode* r=res;
-        // if(arr.size() ==0)
-        //     return r->right;
-        
          int i;
             for(i=1;i<arr.size();i++)
             {
