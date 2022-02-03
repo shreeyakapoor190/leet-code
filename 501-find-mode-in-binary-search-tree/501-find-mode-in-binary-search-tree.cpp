@@ -11,27 +11,33 @@
  */
 class Solution {
 public:
+    unordered_map<int,int> m;
     
     
     vector<int> findMode(TreeNode* root) {
-       unordered_map<int,int> m;
-        queue<TreeNode*> q;
-        q.push(root);
-            while (q.empty() == false)
-            {
-            //     for(int i=0;i<q.size();i++)
-            // {
-                TreeNode *curr = q.front();
-                q.pop();
-                m[curr->val]++;
-                if (curr->left != NULL)
-                    q.push(curr->left);
-                if (curr->right != NULL)
-                    q.push(curr->right);
-            // }
-            }
        
+        // queue<TreeNode*> q;
+        // q.push(root);
+        //     while (q.empty() == false)
+        //     {
+        //         TreeNode *curr = q.front();
+        //         q.pop();
+        //         m[curr->val]++;
+        //         if (curr->left != NULL)
+        //             q.push(curr->left);
+        //         if (curr->right != NULL)
+        //             q.push(curr->right);
+        //     }
+inorder(root);       
         return find(m);
+    }
+    void inorder(TreeNode *root)
+    {
+        if(!root)
+            return;
+        m[root->val]++;
+        inorder(root->left);
+        inorder(root->right);
     }
     vector<int> find(unordered_map<int,int> m)
     {
