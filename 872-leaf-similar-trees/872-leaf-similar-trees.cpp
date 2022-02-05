@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    vector<int> v1,v2;
+    
     vector<int> l;
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        
+        vector<int> v1,v2;    
         v1 = leaf(root1);
         l.clear();
         v2 = leaf(root2);
         if(v1.size()!= v2.size())
             return false;
         int i;
-        for(i= 0; i<v1.size(); i++)
+        for(i= 0; i < v1.size(); i++)
         {
             if(v1[i] != v2[i])
                 return false;
