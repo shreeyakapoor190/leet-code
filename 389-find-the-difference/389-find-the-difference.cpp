@@ -3,7 +3,6 @@ public:
     char findTheDifference(string s, string t) {
         unordered_map<char,int> s1, t1;
         int i;
-        char result;
         for(i=0; i<s.length(); i++)
         {
             s1[s[i]]++;
@@ -19,7 +18,7 @@ public:
                 t1.erase(s[i]);
         }
         for(auto x:t1)
-            result = x.first;
-        return result;
+            return x.first;
+        return 'a';
     }
 };
