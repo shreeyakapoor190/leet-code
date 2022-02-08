@@ -9,7 +9,6 @@ public:
             {
                 n = nums[i]+ nums[j];
                 if(n==target && i!=j)
-                    // cout<<i<<" "<<j<<endl;
                     count++;
             }
         }
