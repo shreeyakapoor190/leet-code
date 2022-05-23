@@ -19,21 +19,14 @@ void display(struct Node *head);
 
 void removeDuplicates(struct Node* head)
 {
-    // Node *temp = head;
      if(head==NULL)
             return NULL;
     while(head->next)
     {
         if(head->data == head->next->data)
         {
-            // Node* del= head->next;
             head->next= head->next->next;
-            // delete del;
         }
-        // if(head->data== head->next->data)
-        // {
-        //     head= head;
-        // }
         else
         {
         head = head->next;
