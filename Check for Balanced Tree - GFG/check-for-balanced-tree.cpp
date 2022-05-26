@@ -112,14 +112,16 @@ class Solution{
         int lheight= height(root->left);
         int rheight= height(root->right);
         
-        bool l= isBalanced(root->left);
-        bool r= isBalanced(root->right);
-        
         bool k;
         if(abs(lheight - rheight)>1)
             k= false;
         else
             k= true;
+        
+        bool l= isBalanced(root->left);
+        bool r= isBalanced(root->right);
+        
+        
         return l&&r&&k;
     }
     int height(Node *root)
