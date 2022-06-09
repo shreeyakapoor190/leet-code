@@ -8,31 +8,48 @@ class Solution
     public:
     //Function to find the maximum number of meetings that can
     //be performed in a meeting room.
-    static bool comp(pair<int, int> a, pair<int, int> b)
+    // static bool comp(pair<int, int> a, pair<int, int> b)
+    // {
+    //     if(a.second==b.second)
+    //         return a.first<b.first;
+    //     return a.second<b.second;
+    // }
+    // int maxMeetings(int start[], int end[], int n)
+    // {
+    //     // Your code here
+    //   vector<pair<int, int>> v(n);
+    //   for(int i=0; i<n; i++)
+    //         v[i]= {start[i], end[i]};
+    //     sort(v.begin(), v.end(), comp);
+    //     int i=0, j=1, c=1;
+    //     while(j<n)
+    //     {
+    //         if(v[i].second < v[j].first)
+    //         {
+    //             c++;
+    //             i=j;    //taaki jisko skip kar rhe wo bhi skip hokar directly pahuche i uske aage 
+    //             j++;
+    //         }
+    //         else
+    //         {
+    //             j++;
+    //         }
+    //     }
+    //     return c;
+    // }
+     int maxMeetings(int start[], int end[], int n)
     {
-        if(a.second==b.second)
-            return a.first<b.first;
-        return a.second<b.second;
-    }
-    int maxMeetings(int start[], int end[], int n)
-    {
-        // Your code here
-       vector<pair<int, int>> v(n);
-       for(int i=0; i<n; i++)
-            v[i]= {start[i], end[i]};
-        sort(v.begin(), v.end(), comp);
-        int i=0, j=1, c=1;
-        while(j<n)
-        {
-            if(v[i].second < v[j].first)
-            {
+        vector<pair<int,int>> v;
+        for(int i=0;i<n;i++){
+            v.push_back({end[i],start[i]});
+        }
+        sort(v.begin(),v.end());
+        int c=1;
+        int s=v[0].first;
+        for(int i=1;i<n;i++){
+            if(v[i].second>s){
                 c++;
-                i=j;    //taaki jisko skip kar rhe wo bhi skip hokar directly pahuche i uske aage 
-                j++;
-            }
-            else
-            {
-                j++;
+                s=v[i].first;
             }
         }
         return c;
