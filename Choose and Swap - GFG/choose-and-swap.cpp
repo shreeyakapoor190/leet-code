@@ -19,9 +19,9 @@ public:
             if(s.empty())
                 break;
             char ch= *s.begin();
-            if(ch< a[i])
+            char ch2= a[i];
+            if(ch< ch2)
             {
-                int ch2= a[i];
                 for(int j=0; j<a.length(); j++)
                 {
                     if(a[j]==ch)
