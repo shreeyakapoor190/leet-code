@@ -9,14 +9,11 @@ public:
         findMax(nums, n, 0, curr_xor, m);
         sum=0;
         countMax(nums, m, count, n, 0, curr_xor );
-        // cout<<m;
         return count;
     }
     void findMax( vector<int> &nums, int n, int i, int curr_xor, int &m )
     {
         if(i==n){
-            // sum = sum|curr_xor;    //reached null of one subset 
-            // cout<<sum<<endl;
             m= max(m, curr_xor);
             return;
         }
@@ -29,7 +26,6 @@ public:
     {
         if(i==n)
         {
-            // sum= sum|curr_xor;
             if(curr_xor== m)
                 count++;
             return;
