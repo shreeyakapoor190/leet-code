@@ -1,24 +1,22 @@
 class Solution {
 public:
+   
+   vector<vector<int>> gar;
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<int> r;
-        vector<vector<int>> res;
-        
-        solve(nums, res, r, 0);
-        return res;
+        vector<int> g;
+        int start=0;
+        int end=nums.size();
+        find(nums,g,start,end);
+        return gar;
     }
-    void solve(vector<int> &nums, vector<vector<int>> &res, vector<int> &r, int i)
-    {
-        if(i>=nums.size())
-        {
-            res.push_back(r);
-            return;
+    
+    void find(vector<int>& nums,vector<int> g,int start,int end){
+        gar.push_back(g);
+        for(int i=start;i<end;i++){
+            g.push_back(nums[i]);
+            find(nums,g,i+1,end);
+            g.pop_back();
         }
-        r.push_back(nums[i]);
-        solve(nums, res, r, i+1);
-        r.pop_back();
-        solve(nums, res, r, i+1);
         
-        return;
     }
 };
