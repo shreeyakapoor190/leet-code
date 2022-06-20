@@ -7,7 +7,7 @@ public:
         solve(res, s, l, r);
         return res;
     }
-    void solve(vector<string> &res, string &s, int l, int r)
+    void solve(vector<string> &res, string s, int l, int r)
     {
         if(l==0 && r==0)
         {
