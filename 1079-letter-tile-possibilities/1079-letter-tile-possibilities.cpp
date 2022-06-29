@@ -7,7 +7,7 @@ public:
         int count=0;
         unordered_map<string, int> m;
         solve(tiles, res, freq, count, m);
-        return count-1;
+        return count-1; //starting me res string empty h to 1 kam karke return karna
     }
     void solve(string tiles, string res, vector<int> & freq, int &count, unordered_map<string, int> &m)
     {
@@ -37,7 +37,7 @@ public:
         {
             if(freq[i]==0)
             {
-               res+=tiles[i];
+                res+=tiles[i];
                 freq[i]= 1;
                 solve(tiles, res, freq, count, m);
                 freq[i]=0;
