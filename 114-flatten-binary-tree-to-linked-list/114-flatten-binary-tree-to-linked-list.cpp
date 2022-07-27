@@ -18,13 +18,9 @@ public:
         r.push_back(root->val);
         flatten(root->left);
         flatten(root->right);
-        // TreeNode *temp= new TreeNode(0);
-        // TreeNode *res;
-        // root=temp->right;
+        
         solve(root, r);
         
-        // root= res;
-        // return res;
     }
     void solve(TreeNode *temp, vector<int> &r)
     {
