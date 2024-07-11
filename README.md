@@ -29,4 +29,12 @@
 |  |
 | ------- |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
+## String
+|  |
+| ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shreeyakapoor190/leet-code/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+## Stack
+|  |
+| ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shreeyakapoor190/leet-code/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
