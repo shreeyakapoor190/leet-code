@@ -41,6 +41,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shreeyakapoor190/leet-code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -49,4 +50,17 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shreeyakapoor190/leet-code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
