@@ -41,6 +41,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shreeyakapoor190/leet-code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
@@ -50,6 +51,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shreeyakapoor190/leet-code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
@@ -63,4 +65,8 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
 <!---LeetCode Topics End-->
