@@ -48,6 +48,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shreeyakapoor190/leet-code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0547-number-of-provinces](https://github.com/shreeyakapoor190/leet-code/tree/master/0547-number-of-provinces) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -59,6 +60,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/shreeyakapoor190/leet-code/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 ## String Matching
 |  |
@@ -72,4 +74,12 @@
 |  |
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/shreeyakapoor190/leet-code/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/shreeyakapoor190/leet-code/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
