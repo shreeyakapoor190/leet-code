@@ -16,10 +16,12 @@
 ## Array
 |  |
 | ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Hash Table
 |  |
 | ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Sorting
 |  |
@@ -44,6 +46,7 @@
 | [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -57,6 +60,7 @@
 | [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0572-subtree-of-another-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shreeyakapoor190/leet-code/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
