@@ -16,6 +16,7 @@
 ## Array
 |  |
 | ------- |
+| [2210-find-target-indices-after-sorting-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Hash Table
@@ -26,6 +27,7 @@
 ## Sorting
 |  |
 | ------- |
+| [2210-find-target-indices-after-sorting-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Ordered Set
 |  |
@@ -78,6 +80,7 @@
 |  |
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/shreeyakapoor190/leet-code/tree/master/0450-delete-node-in-a-bst) |
+| [2210-find-target-indices-after-sorting-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2210-find-target-indices-after-sorting-array) |
 ## Union Find
 |  |
 | ------- |
