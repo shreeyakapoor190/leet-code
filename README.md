@@ -16,6 +16,7 @@
 ## Array
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [1207-delete-nodes-and-return-forest](https://github.com/shreeyakapoor190/leet-code/tree/master/1207-delete-nodes-and-return-forest) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/shreeyakapoor190/leet-code/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -24,12 +25,14 @@
 ## Hash Table
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [1207-delete-nodes-and-return-forest](https://github.com/shreeyakapoor190/leet-code/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Ordered Set
@@ -99,4 +102,24 @@
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/shreeyakapoor190/leet-code/tree/master/1496-lucky-numbers-in-a-matrix) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
