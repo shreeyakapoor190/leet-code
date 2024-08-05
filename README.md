@@ -19,6 +19,7 @@
 | [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [1207-delete-nodes-and-return-forest](https://github.com/shreeyakapoor190/leet-code/tree/master/1207-delete-nodes-and-return-forest) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/shreeyakapoor190/leet-code/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
@@ -27,6 +28,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
 | [1207-delete-nodes-and-return-forest](https://github.com/shreeyakapoor190/leet-code/tree/master/1207-delete-nodes-and-return-forest) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/shreeyakapoor190/leet-code/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2447-merge-similar-items](https://github.com/shreeyakapoor190/leet-code/tree/master/2447-merge-similar-items) |
 ## Sorting
@@ -43,6 +45,7 @@
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shreeyakapoor190/leet-code/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Stack
 |  |
 | ------- |
@@ -118,6 +121,7 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shreeyakapoor190/leet-code/tree/master/0347-top-k-frequent-elements) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shreeyakapoor190/leet-code/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Quickselect
 |  |
 | ------- |
